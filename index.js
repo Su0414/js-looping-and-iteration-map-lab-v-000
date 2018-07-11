@@ -10,12 +10,10 @@ function lowerCaseDrivers(drivers){
 function nameToAttributes(drivers){
   return drivers.map(
     function (driver) {
-      const fname = firstName: driver.split(" ").first
-      const fname = firstName: driver.split(" ").last
-
-      return {firstName: fname,   lastName: lname);
-    }
-);
+      const fname = firstName: driver.split(" ").first;
+      const fname = firstName: driver.split(" ").last;
+      return {firstName: fname, lastName: lname);
+    });
 }
 
 function attributesToPhrase(drivers){

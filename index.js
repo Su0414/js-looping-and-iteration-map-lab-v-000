@@ -16,7 +16,3 @@ function nameToAttributes(drivers){
   });
   return newDrivers;
 }
-
-function attributesToPhrase(drivers){
-
-}

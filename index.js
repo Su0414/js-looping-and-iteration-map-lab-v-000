@@ -8,8 +8,10 @@ function lowerCaseDrivers(drivers){
 }
 
 function nameToAttributes(drivers){
-  let driverName = drivers.split(',');
-  let name = driverName.split(' ');
+
+  return drivers.map(function (driver) {
+   return driver.toLowerCase().split(' ');
+ });
 
 }
 

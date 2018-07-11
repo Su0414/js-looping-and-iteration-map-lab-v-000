@@ -8,13 +8,13 @@ function lowerCaseDrivers(drivers){
 }
 
 function nameToAttributes(drivers){
-  const newEngineers = map(drivers, function (driver) {
+  const newDrivers = map(drivers, function (driver) {
     return Object.assign({}, driver, {
       let driverName = driver.split(' ')
       firstname: driverName[0] ,
       lastName: driverName[1]});
   });
-  return newEngineers;
+  return newDrivers;
 }
 
 function attributesToPhrase(drivers){

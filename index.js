@@ -9,6 +9,6 @@ function lowerCaseDrivers(drivers){
 
 function nameToAttributes(drivers){
   return drivers.map(function (driver) {
-   return Object.assign({}, driver, {firstname: driver.split(' '), lastname:driver.split(' ')});
+   return Object.assign({}, driver, {firstname: driver.split(' ').first, lastname:driver.split(' ').last});
  });
 }

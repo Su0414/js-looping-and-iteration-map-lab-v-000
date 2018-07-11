@@ -11,7 +11,7 @@ function nameToAttributes(drivers){
   return drivers.map(
     function (driver) {
             let copyDrivers = {
-              firstName: driver.split(' ').first
+              firstName: driver.split(' ').first,
               lastName: driver.split(' ').last
             }
             return copyDrivers;

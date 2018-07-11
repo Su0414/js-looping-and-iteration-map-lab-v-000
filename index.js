@@ -8,11 +8,13 @@ function lowerCaseDrivers(drivers){
 }
 
 function nameToAttributes(drivers){
-  return drivers.map(function (driver) {
-    let copyDrivers = {
-      firstName: driver.split(' ').first
-      lastName: driver.split(' ').last
+  return drivers.map(
+    function (driver) {
+            let copyDrivers = {
+              firstName: driver.split(' ').first
+              lastName: driver.split(' ').last
+            }
+            return copyDrivers;
     }
-   return copyDrivers;
- });
+);
 }
